@@ -161,14 +161,22 @@ class Circle extends Point { // 상속관계
 ```
 
 > 원(Circle)은 점(Point)이다. - Circle is a Point. (상속)
-> 원(Circle)은 점(Point)을 가지고 있다. - Circle has a Point. (포함)
+  원(Circle)은 점(Point)을 가지고 있다. - Circle has a Point. (포함)
 
 * 2번째가 옳다. 포함관계 사용
 
 자동차는 스포츠카이다. X
+
+
 자동차는 스포츠카를 가지고 있다. O
+
+
 스포츠카는 자동차이다. O
+
+
 스포츠타는 자동차를 가지고 있다. X
+
+
 
 ``` java
 class Car {}
