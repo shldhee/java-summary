@@ -22,11 +22,11 @@ class Child extends Parent {
 
 ![상속관계도](https://raw.githubusercontent.com/shldhee/java-summary/master/images/7-1.png)
 
-_상속관계를 그림으로 표현한 것으로 **상속계층도(class hierarchy)**라고 한다._
+_상속관계를 그림으로 표현한 것으로 **상속계층도(class hierarchy)** 라고 한다._
 
 * 화살표 방향 있는 쪽이 상속해주는 클래스(조상 클래스)
 
-_**다이어그램**__
+_**다이어그램**_
 
 ![다이어그램](https://raw.githubusercontent.com/shldhee/java-summary/master/images/7-2.png)
 
@@ -77,7 +77,7 @@ class GrandChild extends Child { }
 * `GrandChild`는 `Child`를 상속받아 상속관계이다.
 * `Parent`의 정수형 변수 `age`는 모두 사용 가능하다.
 
-_TV예제__
+_TV예제_
 ``` java
 class Tv {
     boolean power;
@@ -160,23 +160,17 @@ class Circle extends Point { // 상속관계
 }
 ```
 
-> 원(Circle)은 점(Point)이다. - Circle is a Point. (상속)
-  원(Circle)은 점(Point)을 가지고 있다. - Circle has a Point. (포함)
+> 첫번쨰 : 원(Circle)은 점(Point)이다. - Circle is a Point. (상속) <br />
+두번째 원(Circle)은 점(Point)을 가지고 있다. - Circle has a Point. (포함)
 
 * 2번째가 옳다. 포함관계 사용
 
-자동차는 스포츠카이다. X
+---
 
-
-자동차는 스포츠카를 가지고 있다. O
-
-
-스포츠카는 자동차이다. O
-
-
-스포츠타는 자동차를 가지고 있다. X
-
-
+* 자동차는 스포츠카이다. X
+* 자동차는 스포츠카를 가지고 있다. O
+* 스포츠카는 자동차이다. O
+* 스포츠차는 자동차를 가지고 있다. X
 
 ``` java
 class Car {}
@@ -455,7 +449,7 @@ class Point3D extends Point {
   * 오버라이딩하는 자손 클래스의 메서드는 접근 제어자가 `protected`, `public`
   * 접근 제어자 순서(접근 범위 넓은 것에서 좁은 것 순서)
   * ***public, protected, (default), private***
-1. 조상 클래스의 메서드보다 많은 수의 예외를 선언할 수 없다.
+2. 조상 클래스의 메서드보다 많은 수의 예외를 선언할 수 없다.
 
 ``` java
 Class Parent {
