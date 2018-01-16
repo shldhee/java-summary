@@ -20,7 +20,7 @@ class Child extends Parent {
 * **조상 클래스** : 부모(parent)클래스, 상위(super)클래스, 기반(base)클래스
 * **자손 클래스** : 자식(child)클래스, 하위(sub)클래스, 파생된(derived)클래스
 
-![상속관계도](../java-summary/images/7-1.png)
+![상속관계도](https://raw.githubusercontent.com/shldhee/java-summary/master/images/7-1.png)
 
 _상속관계를 그림으로 표현한 것으로 **상속계층도(class hierarchy)**라고 한다._
 
@@ -28,7 +28,7 @@ _상속관계를 그림으로 표현한 것으로 **상속계층도(class hierar
 
 _**다이어그램**__
 
-![다이어그램](../java-summary/images/7-2.png)
+![다이어그램](https://raw.githubusercontent.com/shldhee/java-summary/master/images/7-2.png)
 
 ``` java
 class Parent {
@@ -38,7 +38,7 @@ class Parent {
 class Child extends Parent { }
 ```
 
-![다이어그램](../java-summary/images/7-3.png)
+![다이어그램](https://raw.githubusercontent.com/shldhee/java-summary/master/images/7-3.png)
 
 * `Parent` 클래스에 있는 정수형 변수 인 `age`가 상속받은 `Child`클래스에 추가되는 것과 같은 효과
 
@@ -54,7 +54,7 @@ class Child extends Parent {
 }
 ```
 
-![다이어그램](../java-summary/images/7-4.png)
+![다이어그램](https://raw.githubusercontent.com/shldhee/java-summary/master/images/7-4.png)
 
 * `Child` 자식 클래스에 추가한 `play()` 메서드는 `Parent` 조상 클래스에는 영향을 받지 않아 존재하지 않는다.
 
@@ -70,8 +70,8 @@ class Child2 extends Parent { }
 class GrandChild extends Child { }
 ```
 
-![상속관계도](../java-summary/images/7-5.png)
-![다이어그램](../java-summary/images/7-6.png)
+![상속관계도](https://raw.githubusercontent.com/shldhee/java-summary/master/images/7-5.png)
+![다이어그램](https://raw.githubusercontent.com/shldhee/java-summary/master/images/7-6.png)
 
 * `Child`와 `Child2`는 아무런 관계가 없다.
 * `GrandChild`는 `Child`를 상속받아 상속관계이다.
@@ -112,7 +112,7 @@ public class CaptionTvTest {
 * `TV`클래스로부터 상속받은 `CaptionTV`클래스 작성
 * `CaptionTV`클래스(자손클래스)의 인스턴스를 생성하면 상속에 따라 조상클래스의 멤버들을 사용할 수 있다.
 
-![다이어그램](../java-summary/images/7-7.png)
+![다이어그램](https://raw.githubusercontent.com/shldhee/java-summary/master/images/7-7.png)
 
 #### 1.2 클래스간의 관계 - 포함관계
 
@@ -404,7 +404,7 @@ class Tv extends Object {
 }
 ```
 
-![다이어그램](../java-summary/images/7-8.png)
+![다이어그램](https://raw.githubusercontent.com/shldhee/java-summary/master/images/7-8.png)
 
 
 ## 2. 오버라이딩(overriding)
